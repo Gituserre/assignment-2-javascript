@@ -1,0 +1,92 @@
+/* Background and layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+/* Main container */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #d81b60;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: center;
+}
+
+/* Form container */
+form {
+  background-color: #ffffffcc; /* white with transparency */
+  backdrop-filter: blur(4px);
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Labels and selects */
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Ingredients section */
+fieldset {
+  border: 2px solid #f48fb1;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+legend {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  color: #ad1457;
+}
+
+/* Button */
+button {
+  background: #ec407a;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #d81b60;
+  transform: scale(1.05);
+}
+
+/* Output section */
+#output {
+  background-color: #fff3e0;
+  margin: 1.5rem auto;
+  max-width: 500px;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+
